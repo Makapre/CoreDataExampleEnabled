@@ -14,6 +14,10 @@
 		F7BA4E32267A1323008ABEAC /* CoreDataExampleEnabled.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7BA4E30267A1323008ABEAC /* CoreDataExampleEnabled.xcdatamodeld */; };
 		F7BA4E34267A1325008ABEAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BA4E33267A1325008ABEAC /* Assets.xcassets */; };
 		F7BA4E37267A1325008ABEAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BA4E35267A1325008ABEAC /* LaunchScreen.storyboard */; };
+		F7BA4E6E267A28F2008ABEAC /* Family+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA4E6A267A28F2008ABEAC /* Family+CoreDataClass.swift */; };
+		F7BA4E6F267A28F2008ABEAC /* Family+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA4E6B267A28F2008ABEAC /* Family+CoreDataProperties.swift */; };
+		F7BA4E70267A28F2008ABEAC /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA4E6C267A28F2008ABEAC /* Person+CoreDataClass.swift */; };
+		F7BA4E71267A28F2008ABEAC /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA4E6D267A28F2008ABEAC /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		F7BA4E33267A1325008ABEAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7BA4E36267A1325008ABEAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7BA4E38267A1325008ABEAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7BA4E6A267A28F2008ABEAC /* Family+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F7BA4E6B267A28F2008ABEAC /* Family+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Family+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F7BA4E6C267A28F2008ABEAC /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F7BA4E6D267A28F2008ABEAC /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		F7BA4E26267A1323008ABEAC /* CoreDataExampleEnabled */ = {
 			isa = PBXGroup;
 			children = (
+				F7BA4E42267A14EF008ABEAC /* Model */,
 				F7BA4E27267A1323008ABEAC /* AppDelegate.swift */,
 				F7BA4E29267A1323008ABEAC /* SceneDelegate.swift */,
 				F7BA4E2B267A1323008ABEAC /* ViewController.swift */,
@@ -68,6 +77,17 @@
 				F7BA4E30267A1323008ABEAC /* CoreDataExampleEnabled.xcdatamodeld */,
 			);
 			path = CoreDataExampleEnabled;
+			sourceTree = "<group>";
+		};
+		F7BA4E42267A14EF008ABEAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7BA4E6A267A28F2008ABEAC /* Family+CoreDataClass.swift */,
+				F7BA4E6B267A28F2008ABEAC /* Family+CoreDataProperties.swift */,
+				F7BA4E6C267A28F2008ABEAC /* Person+CoreDataClass.swift */,
+				F7BA4E6D267A28F2008ABEAC /* Person+CoreDataProperties.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7BA4E2C267A1323008ABEAC /* ViewController.swift in Sources */,
+				F7BA4E70267A28F2008ABEAC /* Person+CoreDataClass.swift in Sources */,
+				F7BA4E6E267A28F2008ABEAC /* Family+CoreDataClass.swift in Sources */,
 				F7BA4E32267A1323008ABEAC /* CoreDataExampleEnabled.xcdatamodeld in Sources */,
+				F7BA4E71267A28F2008ABEAC /* Person+CoreDataProperties.swift in Sources */,
+				F7BA4E6F267A28F2008ABEAC /* Family+CoreDataProperties.swift in Sources */,
 				F7BA4E28267A1323008ABEAC /* AppDelegate.swift in Sources */,
 				F7BA4E2A267A1323008ABEAC /* SceneDelegate.swift in Sources */,
 			);
